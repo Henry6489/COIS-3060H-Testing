@@ -168,7 +168,7 @@ describe('Generate button — multiple selections (Issue #3)', () => {
     check('main-steak');
     check('dessert-icecream');
     click('generate-btn');
-    expect(getMessage()).toContain('soup');
+    expect(getMessage()).toContain('Soup');
     expect(getMessage()).toContain('Salad');
   });
 
